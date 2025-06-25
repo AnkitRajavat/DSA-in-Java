@@ -10,7 +10,6 @@ public class NumberExample {
             System.out.println(n);
             return;
         }
-        System.out.println(n);
             print(n+1);
     }
 }
