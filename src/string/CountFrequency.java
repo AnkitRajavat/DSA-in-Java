@@ -1,0 +1,61 @@
+package string;
+
+public class CountFrequency {
+    public static void main(String []args) {
+        String str = "Ankiiitttt";
+
+        str.toLowerCase();
+        System.out.println(str.substring(0,5));
+        char []ch=str.toCharArray();
+        for(int i=0;i<ch.length;i++){
+            System.out.println(i+" "+ch[i]);
+        }
+
+
+
+
+        //countCharacters(str);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public static void countCharacters(String s) {
+            int[] freq = new int[256];
+
+            for (char c : s.toCharArray()) {
+                freq[c]++;
+            }
+
+            for (int i = 0; i < freq.length; i++) {
+                if (freq[i] > 0) {
+                    System.out.println((char)i + " -> " + freq[i]);
+                }
+            }
+        }
+
+}

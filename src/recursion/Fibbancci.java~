@@ -6,11 +6,10 @@ public class Fibbancci {
         System.out.println("ans = " + ans);
     }
     static int fibbo(int n){
-        System.out.println(n);
         if(n==0|| n==1)
             return n;
 
-
+        System.out.println(n);
 
         return fibbo(n-1)+fibbo(n-2);
     }

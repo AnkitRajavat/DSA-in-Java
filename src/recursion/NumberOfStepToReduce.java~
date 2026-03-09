@@ -1,0 +1,11 @@
+package recursion;
+
+public class NumberOfStepToReduce {
+    public static void main(String[] args) {
+        System.out.println(numberOfSteps(14));
+    }
+
+    private static int numberOfSteps(int i) {
+        return helper(i,)
+    }
+}
